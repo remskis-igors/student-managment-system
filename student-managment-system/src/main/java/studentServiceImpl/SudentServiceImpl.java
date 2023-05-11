@@ -1,4 +1,4 @@
-package StudentServiceImpl;
+package studentServiceImpl;
 
 import java.util.List;
 
