@@ -1,8 +1,8 @@
-package service;
+package com.paremskis.sms.service;
 
 import java.util.List;
 
-import entity.Student;
+import com.paremskis.sms.model.Student;
 
 public interface StudentService {
 

@@ -1,12 +1,10 @@
-package studentServiceImpl;
+package com.paremskis.sms.service;
 
 import java.util.List;
 
+import com.paremskis.sms.model.Student;
+import com.paremskis.sms.persistence.StudentRepository;
 import org.springframework.stereotype.Service;
-
-import entity.Student;
-import repository.StudentRepository;
-import service.StudentService;
 
 @Service
 public class SudentServiceImpl implements StudentService {
