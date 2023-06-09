@@ -1,6 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="StudentManagmentSystemApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="com.paremskis.sms.StudentManagmentSystemApplication" />
+    <envs>
+      <env name="spring.profiles.active" value="local" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.paremskis.sms.StudentManagementSystemApplication" />
     <module name="student-managment-system" />
     <extension name="coverage">
       <pattern>
